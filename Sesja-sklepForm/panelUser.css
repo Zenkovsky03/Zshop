@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #456;
+}
+
+header {
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+header>h1 {
+    color: #25272E;
+    margin-left: 10%;
+    font-family: Asap, sans-serif;
+}
+
+footer {
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+footer>p {
+    color: #25272E;
+    margin-left: 10%;
+    font-family: Asap, sans-serif;
+}
+
+#table {
+    width: 100%;
+    height: 400px;
+    background-color: #28d;
+}
+
+#czyt_form {
+    padding: 10px;
+    margin-right: 40%;
+    float: right;
+    margin-top: -60px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 150%;
+    text-align: center;
+}
+
+table tr>* {
+    border: 3px solid black;
+}
+
+th {
+    background-color: #283959;
+    color: white;
+    padding: 3px;
+}
+
+td {
+    background-color: cadetblue;
+    color: white;
+    padding: 4px;
+}
+
+#user {
+    padding: 25px;
+}
+
+
+
+a:link,
+a:visited {
+    background-color: #191e49;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(117, 50, 205);
+}
+
+h3 {
+    font-size: 140%;
+}
+
+#wyloguj {
+    margin-left: 50px;
+}
